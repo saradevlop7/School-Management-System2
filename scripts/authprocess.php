@@ -16,16 +16,6 @@ if (!filter_var($email,FILTER_VALIDATE_EMAIL)){
     header("location:register.php?error=empty");
     exit ;
 }
-
-
-
-
-
-
-
-
-
-
 $lastname= htmlspecialchars($lastname);
 $firstname =htmlspecialchars($firstname);
 $password = htmlspecialchars($password);

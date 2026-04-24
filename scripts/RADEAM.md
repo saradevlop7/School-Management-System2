@@ -105,3 +105,5 @@ http://localhost/edusync-backend/public/login.php
 * Ce projet est une simulation sans base de données
 * Les identifiants sont codés en dur (ex: [test@gmail.com](mailto:test@gmail.com) / 123456)
 * Peut être amélioré avec MySQL + PDO
+Preparé par /
+sara charafi
