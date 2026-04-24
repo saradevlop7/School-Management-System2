@@ -10,16 +10,6 @@ if (empty($email) || empty($password)) {
     header("Location: ../public/login.php?error=empty");
     exit;
 }
-
-
-
-
-
-
-
-
-
-
 if ($email === "test@gmail.com" && $password === "123456") {
 
     $_SESSION["user"] = [
