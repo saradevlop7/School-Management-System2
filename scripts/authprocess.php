@@ -24,6 +24,8 @@ if (!filter_var($email,FILTER_VALIDATE_EMAIL)){
 
 
 
+
+
 $lastname= htmlspecialchars($lastname);
 $firstname =htmlspecialchars($firstname);
 $password = htmlspecialchars($password);
